@@ -1,0 +1,176 @@
+.announcement-header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    
+}
+.body{
+    font-family: 'Mukta' , sans-serif;
+}
+
+.announcement-button{
+    background-color: red;
+    width: 140px;
+    
+    border-radius: 50px;
+    padding-left: 13px;
+    padding-top: 2px;
+    height: 2rem;
+    margin-top: 1rem;
+}
+.announcement-button p{
+    color: #fff;
+}
+
+.covid-response{
+    color: #fff;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+}
+
+.navbar{
+    background-color: rgb(191, 82, 82);
+    height: 70px;
+    display: flex;
+    
+}
+
+.logo{
+    margin-left: 10%;
+    margin-bottom: 1%;
+}
+
+.nav-items{
+    gap:3rem;
+    display: flex;
+   
+    margin-top: 35px;
+    max-height: 30px;
+   bottom: 18px;
+   margin-right: 14rem;
+  position: relative;
+   
+  
+    
+
+}
+
+.nav-items p{
+    color: #fff;
+}
+
+/* .cart-number{
+    bottom: 58px;
+    position: relative;
+
+} */
+
+.cart-number{
+    position: relative;
+    bottom: 43px;
+    margin-left: 56px;
+    width: 20px;
+    background-color: white;
+    border-radius: 10px;
+    height: 20px;
+    
+    /* color: black; */
+}
+
+.cart-number p{
+    color: black;
+    font-size: x-small;
+    padding-top: 3px;
+    text-align: center;
+}
+
+.cart-img{
+    max-width: 20px;
+    margin-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* background-color: black; */
+}
+.cart-container{
+    margin-left: 20px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+
+
+.travel-sea{
+    background-image: url(./acme-website-homepage-assets/header.jpg);
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.travel-sea-container{
+    padding-left: 15%;
+    padding-top: 10%;
+}
+
+
+.description1{
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+.description1 p span{
+    display: block;
+}
+
+.description2{
+    font-size: 20px;
+    color: #fff;
+}
+
+.description2 p span{
+    display: block;
+}
+
+
+.btn btn-light{
+    background-color: none;
+}
+
+
+/* .cart-img{
+    margin-top: 20px;
+} */
+
+/* .cart-number{
+    max-height: 5px;
+    margin-right: 15px;
+} */
+
+
+
+/* 
+.cart-cover{
+
+}
+
+.cart-item{
+    width: 22px;
+    
+    left: 50px;
+    background-color: #fff;
+}
+
+.cart-img{
+    margin-right: 12rem;
+}
+
+.cart-item p{
+margin-left: 12px;
+} */
+
+.paragraphs{
+    display: flex;
+}
