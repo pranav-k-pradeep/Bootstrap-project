@@ -291,8 +291,7 @@ margin-left: 12px;
     
 } */
 
-.middle-texts {
-    
+.middle-texts {    
     padding: 20px;
     margin-top: 9rem;
     margin-left: 5rem;
@@ -305,14 +304,8 @@ margin-left: 12px;
 
 .middle {
    
-    text-align: center;
-    
+    text-align: center; 
     padding: 0 15px;
-}
-
-
-.d-flex > .col {
-    margin: 0 10px; 
 }
 
 .middle p span{
@@ -427,7 +420,8 @@ top: 0rem;
 
 .inner-prices{
     display: flex;
-    margin-left: 9rem;
+    margin-left: 7rem;
+    flex-wrap: nowrap;
     gap:0.5rem;
 }
 
@@ -450,8 +444,9 @@ top: 0rem;
 
 .black-button{
     margin-top: 3rem;
-    
 }
+
+
 
 /* .travel-cards{
     margin-left:12rem;
